@@ -1,0 +1,4 @@
+client_secrets.json
+venv/
+__pycache__/
+.DS_Store

@@ -1,0 +1,330 @@
+Date,Campaign,Source,Sessions,Conversions,Bounce_Rate,CTR
+2025-10-15,Newsletter_Weekly,Email,2657,53,43.34,0.0
+2025-10-15,Newsletter_Weekly,Email,3154,83,45.67,0.0
+2025-10-15,Newsletter_Weekly,Email,2538,99,50.54,0.0
+2025-10-15,None,Organic Search,3596,164,53.99,0.0
+2025-10-15,New_Year_Promo,Paid Ads,639,10,45.4,2.49
+2025-10-15,None,Social Media,3411,167,30.98,0.0
+2025-10-15,None,Referral,2809,74,36.74,0.0
+2025-10-15,New_Year_Promo,Paid Ads,2288,66,67.48,3.13
+2025-10-15,None,Organic Search,2354,80,48.01,0.0
+2025-10-16,Newsletter_Weekly,Email,2106,34,60.8,0.0
+2025-10-16,None,Organic Search,3545,38,54.21,0.0
+2025-10-16,Newsletter_Weekly,Email,3097,130,35.17,0.0
+2025-10-16,Retargeting_Q1,Paid Ads,1876,83,42.91,2.06
+2025-10-16,None,Social Media,3682,113,34.45,0.0
+2025-10-17,None,Social Media,3613,72,43.22,0.0
+2025-10-17,None,Social Media,348,8,61.48,0.0
+2025-10-17,None,Organic Search,103,4,62.55,0.0
+2025-10-17,None,Social Media,2190,27,43.67,0.0
+2025-10-17,None,Referral,4745,73,45.63,0.0
+2025-10-17,None,Social Media,4336,130,62.51,0.0
+2025-10-17,Newsletter_Weekly,Email,4656,213,61.25,0.0
+2025-10-17,None,Referral,3380,157,38.42,0.0
+2025-10-17,None,Referral,3775,82,58.17,0.0
+2025-10-18,None,Referral,2001,58,39.81,0.0
+2025-10-18,None,Referral,3036,88,34.19,0.0
+2025-10-18,None,Social Media,1524,27,58.79,0.0
+2025-10-18,None,Social Media,2371,102,44.4,0.0
+2025-10-18,None,Referral,1206,30,43.01,0.0
+2025-10-18,Winter_Sale,Paid Ads,1915,25,65.2,1.37
+2025-10-18,Winter_Sale,Paid Ads,2292,53,68.37,1.95
+2025-10-18,None,Social Media,3325,67,68.79,0.0
+2025-10-18,None,Organic Search,3678,98,53.03,0.0
+2025-10-19,None,Organic Search,4111,97,45.09,0.0
+2025-10-19,None,Organic Search,4052,87,63.19,0.0
+2025-10-19,Winter_Sale,Paid Ads,4150,104,60.16,2.81
+2025-10-19,None,Organic Search,3186,131,63.0,0.0
+2025-10-19,None,Organic Search,824,12,62.83,0.0
+2025-10-19,New_Year_Promo,Paid Ads,1657,69,38.78,3.22
+2025-10-20,None,Organic Search,4679,225,60.61,0.0
+2025-10-20,None,Referral,2914,44,48.14,0.0
+2025-10-20,Winter_Sale,Paid Ads,3644,138,38.96,1.23
+2025-10-20,None,Organic Search,1269,14,49.43,0.0
+2025-10-20,None,Organic Search,3412,44,42.62,0.0
+2025-10-20,None,Social Media,2065,86,64.25,0.0
+2025-10-20,New_Year_Promo,Paid Ads,3698,145,30.13,1.62
+2025-10-20,None,Social Media,4604,151,56.64,0.0
+2025-10-20,None,Social Media,453,12,40.07,0.0
+2025-10-20,New_Year_Promo,Paid Ads,336,15,54.86,3.02
+2025-10-21,Winter_Sale,Paid Ads,825,10,60.26,3.02
+2025-10-21,None,Organic Search,3150,91,31.6,0.0
+2025-10-21,Winter_Sale,Paid Ads,2608,66,62.49,1.12
+2025-10-21,None,Social Media,3413,113,48.85,0.0
+2025-10-21,None,Referral,2093,64,58.82,0.0
+2025-10-21,None,Social Media,4426,187,52.08,0.0
+2025-10-22,New_Year_Promo,Paid Ads,3930,43,68.52,3.58
+2025-10-22,Newsletter_Weekly,Email,3027,132,55.5,0.0
+2025-10-22,Retargeting_Q1,Paid Ads,1341,42,40.29,1.75
+2025-10-22,None,Referral,3629,65,43.48,0.0
+2025-10-22,Newsletter_Weekly,Email,4842,134,54.31,0.0
+2025-10-22,None,Organic Search,1520,28,66.3,0.0
+2025-10-22,New_Year_Promo,Paid Ads,1162,30,55.85,2.4
+2025-10-22,Newsletter_Weekly,Email,2284,105,43.71,0.0
+2025-10-23,None,Social Media,4867,96,33.71,0.0
+2025-10-23,None,Organic Search,4269,157,62.97,0.0
+2025-10-23,None,Referral,3022,65,37.98,0.0
+2025-10-23,None,Organic Search,1439,38,68.61,0.0
+2025-10-23,None,Referral,3568,81,66.43,0.0
+2025-10-23,None,Social Media,3222,82,31.13,0.0
+2025-10-23,Retargeting_Q1,Paid Ads,3692,106,38.27,4.92
+2025-10-24,None,Social Media,3436,134,40.08,0.0
+2025-10-24,Newsletter_Weekly,Email,4979,109,66.35,0.0
+2025-10-24,None,Organic Search,4191,195,32.36,0.0
+2025-10-24,None,Organic Search,171,6,36.63,0.0
+2025-10-24,None,Referral,1297,34,36.34,0.0
+2025-10-25,None,Social Media,4180,130,64.02,0.0
+2025-10-25,Retargeting_Q1,Paid Ads,3160,131,67.38,4.25
+2025-10-25,Newsletter_Weekly,Email,363,6,51.46,0.0
+2025-10-25,Newsletter_Weekly,Email,3316,57,35.67,0.0
+2025-10-25,None,Organic Search,1101,27,52.07,0.0
+2025-10-25,None,Social Media,3279,52,67.96,0.0
+2025-10-26,None,Referral,1534,58,53.2,0.0
+2025-10-26,Newsletter_Weekly,Email,2723,89,49.03,0.0
+2025-10-26,None,Social Media,1053,20,36.52,0.0
+2025-10-26,None,Organic Search,802,24,31.74,0.0
+2025-10-26,None,Social Media,785,17,51.47,0.0
+2025-10-26,None,Social Media,3882,73,52.36,0.0
+2025-10-26,None,Referral,4121,166,35.81,0.0
+2025-10-26,Newsletter_Weekly,Email,1810,74,60.32,0.0
+2025-10-26,None,Referral,2936,102,38.87,0.0
+2025-10-27,Retargeting_Q1,Paid Ads,4818,226,50.08,3.91
+2025-10-27,Newsletter_Weekly,Email,760,13,32.78,0.0
+2025-10-27,Newsletter_Weekly,Email,2692,71,64.19,0.0
+2025-10-27,None,Referral,2681,49,38.99,0.0
+2025-10-27,None,Social Media,1681,17,50.41,0.0
+2025-10-28,None,Referral,2040,43,51.9,0.0
+2025-10-28,None,Referral,1583,74,39.55,0.0
+2025-10-28,None,Social Media,2018,91,42.99,0.0
+2025-10-28,Retargeting_Q1,Paid Ads,740,22,54.29,2.73
+2025-10-28,None,Organic Search,863,34,49.65,0.0
+2025-10-29,None,Organic Search,2024,85,47.38,0.0
+2025-10-29,None,Social Media,4786,80,60.9,0.0
+2025-10-29,Winter_Sale,Paid Ads,777,38,40.39,1.1
+2025-10-29,Newsletter_Weekly,Email,4696,98,54.39,0.0
+2025-10-29,Newsletter_Weekly,Email,2014,93,47.92,0.0
+2025-10-30,None,Referral,550,17,44.88,0.0
+2025-10-30,Retargeting_Q1,Paid Ads,3831,155,64.81,1.56
+2025-10-30,Retargeting_Q1,Paid Ads,1289,14,44.92,3.31
+2025-10-30,New_Year_Promo,Paid Ads,2618,120,62.61,3.37
+2025-10-30,None,Referral,1159,56,68.88,0.0
+2025-10-30,Newsletter_Weekly,Email,3375,147,47.44,0.0
+2025-10-30,Winter_Sale,Paid Ads,1834,52,66.69,1.96
+2025-10-30,None,Organic Search,4059,162,43.52,0.0
+2025-10-31,Retargeting_Q1,Paid Ads,4602,54,36.66,4.22
+2025-10-31,None,Social Media,2913,82,63.69,0.0
+2025-10-31,New_Year_Promo,Paid Ads,1631,42,54.92,2.77
+2025-10-31,None,Social Media,1122,38,64.23,0.0
+2025-10-31,Retargeting_Q1,Paid Ads,110,2,30.79,3.85
+2025-10-31,None,Referral,629,13,66.11,0.0
+2025-10-31,None,Referral,1739,58,66.48,0.0
+2025-10-31,None,Referral,1128,20,30.28,0.0
+2025-10-31,Newsletter_Weekly,Email,4893,241,46.64,0.0
+2025-11-01,New_Year_Promo,Paid Ads,1630,26,60.4,1.3
+2025-11-01,None,Organic Search,4660,67,55.54,0.0
+2025-11-01,None,Social Media,754,9,62.81,0.0
+2025-11-01,None,Organic Search,2922,35,54.52,0.0
+2025-11-01,None,Social Media,1557,65,65.82,0.0
+2025-11-01,Newsletter_Weekly,Email,2158,103,42.25,0.0
+2025-11-01,None,Social Media,4237,48,37.23,0.0
+2025-11-01,Newsletter_Weekly,Email,3048,90,37.53,0.0
+2025-11-01,None,Referral,1644,81,32.3,0.0
+2025-11-02,None,Social Media,4271,119,64.44,0.0
+2025-11-02,Newsletter_Weekly,Email,3675,82,59.77,0.0
+2025-11-02,None,Referral,246,6,66.97,0.0
+2025-11-02,None,Organic Search,4272,146,53.84,0.0
+2025-11-02,None,Social Media,2243,61,51.23,0.0
+2025-11-02,Newsletter_Weekly,Email,4029,173,61.12,0.0
+2025-11-02,Newsletter_Weekly,Email,659,14,50.05,0.0
+2025-11-02,Retargeting_Q1,Paid Ads,3583,36,66.53,4.24
+2025-11-02,Winter_Sale,Paid Ads,3977,198,45.46,1.99
+2025-11-02,Newsletter_Weekly,Email,2958,59,67.14,0.0
+2025-11-03,None,Social Media,1667,39,46.39,0.0
+2025-11-03,None,Referral,4389,212,44.35,0.0
+2025-11-03,None,Referral,4601,132,34.45,0.0
+2025-11-03,None,Organic Search,3185,38,40.16,0.0
+2025-11-03,Newsletter_Weekly,Email,2635,60,67.47,0.0
+2025-11-03,None,Social Media,2290,87,66.99,0.0
+2025-11-03,Newsletter_Weekly,Email,3795,55,69.76,0.0
+2025-11-03,Newsletter_Weekly,Email,2222,32,56.79,0.0
+2025-11-04,None,Social Media,973,44,66.11,0.0
+2025-11-04,Newsletter_Weekly,Email,3895,127,55.54,0.0
+2025-11-04,None,Social Media,4191,77,55.98,0.0
+2025-11-04,None,Referral,4165,116,56.05,0.0
+2025-11-04,Newsletter_Weekly,Email,2876,91,39.58,0.0
+2025-11-05,None,Organic Search,3045,39,60.53,0.0
+2025-11-05,None,Organic Search,1057,18,41.41,0.0
+2025-11-05,None,Organic Search,4551,90,33.94,0.0
+2025-11-05,None,Organic Search,680,30,48.12,0.0
+2025-11-05,None,Referral,4930,95,33.43,0.0
+2025-11-06,Retargeting_Q1,Paid Ads,2471,75,67.9,2.42
+2025-11-06,None,Referral,2807,138,65.96,0.0
+2025-11-06,None,Referral,3835,110,34.74,0.0
+2025-11-06,Newsletter_Weekly,Email,815,23,39.08,0.0
+2025-11-06,None,Referral,3089,130,62.31,0.0
+2025-11-06,None,Organic Search,821,35,54.25,0.0
+2025-11-06,New_Year_Promo,Paid Ads,408,8,64.25,3.38
+2025-11-07,None,Social Media,4727,55,43.6,0.0
+2025-11-07,Retargeting_Q1,Paid Ads,337,16,37.82,3.49
+2025-11-07,None,Referral,3695,131,61.53,0.0
+2025-11-07,None,Referral,3856,163,58.48,0.0
+2025-11-07,None,Referral,4985,216,40.72,0.0
+2025-11-07,None,Organic Search,2736,123,60.41,0.0
+2025-11-08,None,Referral,3691,70,37.39,0.0
+2025-11-08,None,Organic Search,4859,173,31.93,0.0
+2025-11-08,Retargeting_Q1,Paid Ads,244,3,65.58,3.45
+2025-11-08,None,Social Media,695,10,54.18,0.0
+2025-11-08,None,Organic Search,4797,216,56.37,0.0
+2025-11-08,None,Organic Search,931,31,34.48,0.0
+2025-11-08,None,Social Media,3495,108,36.43,0.0
+2025-11-09,None,Referral,3065,127,33.93,0.0
+2025-11-09,New_Year_Promo,Paid Ads,4495,95,39.54,3.51
+2025-11-09,None,Organic Search,306,11,55.37,0.0
+2025-11-09,Retargeting_Q1,Paid Ads,4116,198,60.55,4.88
+2025-11-09,Winter_Sale,Paid Ads,2924,99,65.1,4.12
+2025-11-09,New_Year_Promo,Paid Ads,2171,107,69.59,2.5
+2025-11-10,None,Social Media,2811,56,62.0,0.0
+2025-11-10,None,Social Media,1475,28,40.07,0.0
+2025-11-10,None,Organic Search,428,14,47.6,0.0
+2025-11-10,Winter_Sale,Paid Ads,4589,217,30.29,1.85
+2025-11-10,Retargeting_Q1,Paid Ads,2849,36,61.84,3.25
+2025-11-11,None,Organic Search,3735,109,47.99,0.0
+2025-11-11,Newsletter_Weekly,Email,4589,169,47.74,0.0
+2025-11-11,None,Referral,1525,39,62.27,0.0
+2025-11-11,None,Referral,500,10,35.58,0.0
+2025-11-11,None,Social Media,180,2,44.69,0.0
+2025-11-11,None,Referral,3364,65,66.91,0.0
+2025-11-11,New_Year_Promo,Paid Ads,500,20,40.44,3.64
+2025-11-11,None,Social Media,2805,89,41.89,0.0
+2025-11-12,Newsletter_Weekly,Email,2197,24,47.8,0.0
+2025-11-12,New_Year_Promo,Paid Ads,1564,34,69.49,2.6
+2025-11-12,Newsletter_Weekly,Email,3442,40,69.4,0.0
+2025-11-12,None,Social Media,728,19,53.78,0.0
+2025-11-12,None,Social Media,1022,19,56.48,0.0
+2025-11-12,None,Social Media,4780,87,59.09,0.0
+2025-11-12,None,Organic Search,719,31,47.54,0.0
+2025-11-12,None,Referral,2958,85,35.2,0.0
+2025-11-13,Newsletter_Weekly,Email,1026,46,50.73,0.0
+2025-11-13,None,Organic Search,2272,28,31.01,0.0
+2025-11-13,Retargeting_Q1,Paid Ads,3829,160,44.22,2.53
+2025-11-13,None,Social Media,3712,84,63.84,0.0
+2025-11-13,Newsletter_Weekly,Email,635,29,34.24,0.0
+2025-11-14,Newsletter_Weekly,Email,3710,151,41.04,0.0
+2025-11-14,None,Referral,4545,202,63.03,0.0
+2025-11-14,New_Year_Promo,Paid Ads,3046,41,62.65,4.57
+2025-11-14,Winter_Sale,Paid Ads,3285,64,65.14,4.03
+2025-11-14,Retargeting_Q1,Paid Ads,3018,58,49.25,1.98
+2025-11-14,None,Social Media,4768,230,39.23,0.0
+2025-11-14,None,Referral,2050,43,49.8,0.0
+2025-11-15,New_Year_Promo,Paid Ads,2187,82,68.17,3.28
+2025-11-15,None,Referral,1277,36,67.19,0.0
+2025-11-15,None,Social Media,1416,58,30.37,0.0
+2025-11-15,None,Social Media,509,15,32.4,0.0
+2025-11-15,Winter_Sale,Paid Ads,2153,30,69.91,1.49
+2025-11-15,Winter_Sale,Paid Ads,2393,98,56.65,4.29
+2025-11-15,None,Organic Search,1233,51,35.36,0.0
+2025-11-15,None,Organic Search,3724,43,61.24,0.0
+2025-11-16,Newsletter_Weekly,Email,3994,165,47.13,0.0
+2025-11-16,None,Referral,3093,72,42.72,0.0
+2025-11-16,None,Referral,4081,86,32.56,0.0
+2025-11-16,None,Referral,775,13,35.92,0.0
+2025-11-16,None,Referral,2423,41,65.23,0.0
+2025-11-16,None,Social Media,4178,132,31.46,0.0
+2025-11-16,Newsletter_Weekly,Email,3537,131,30.99,0.0
+2025-11-17,Winter_Sale,Paid Ads,568,15,67.74,4.42
+2025-11-17,None,Social Media,4257,192,61.76,0.0
+2025-11-17,None,Organic Search,531,8,36.53,0.0
+2025-11-17,None,Referral,4666,212,41.77,0.0
+2025-11-17,None,Organic Search,3798,52,58.63,0.0
+2025-11-17,None,Social Media,2009,65,55.88,0.0
+2025-11-17,None,Organic Search,1277,49,36.51,0.0
+2025-11-17,Newsletter_Weekly,Email,1085,20,41.76,0.0
+2025-11-17,Winter_Sale,Paid Ads,3476,36,68.02,3.56
+2025-11-17,Newsletter_Weekly,Email,4603,207,36.24,0.0
+2025-11-18,None,Referral,2792,85,55.06,0.0
+2025-11-18,None,Referral,894,11,65.77,0.0
+2025-11-18,None,Social Media,4818,170,65.17,0.0
+2025-11-18,Winter_Sale,Paid Ads,3508,117,68.28,3.52
+2025-11-18,None,Social Media,3488,130,65.77,0.0
+2025-11-18,Retargeting_Q1,Paid Ads,2036,97,42.15,1.99
+2025-11-18,None,Organic Search,2778,104,39.2,0.0
+2025-11-18,Retargeting_Q1,Paid Ads,631,28,53.98,4.94
+2025-11-18,None,Social Media,326,7,55.59,0.0
+2025-11-18,None,Social Media,195,7,48.8,0.0
+2025-11-19,Winter_Sale,Paid Ads,2506,75,32.32,3.28
+2025-11-19,None,Referral,4284,149,33.93,0.0
+2025-11-19,None,Social Media,2829,71,40.55,0.0
+2025-11-19,None,Social Media,2271,81,36.29,0.0
+2025-11-19,Retargeting_Q1,Paid Ads,2673,43,38.03,3.57
+2025-11-19,None,Referral,2388,51,38.29,0.0
+2025-11-20,None,Social Media,3947,85,39.1,0.0
+2025-11-20,New_Year_Promo,Paid Ads,2729,107,62.87,1.43
+2025-11-20,Newsletter_Weekly,Email,3540,170,44.64,0.0
+2025-11-20,None,Referral,4791,53,48.84,0.0
+2025-11-20,None,Organic Search,4393,119,32.68,0.0
+2025-11-21,None,Referral,1378,42,32.55,0.0
+2025-11-21,Newsletter_Weekly,Email,2074,58,34.64,0.0
+2025-11-21,None,Organic Search,4786,184,32.83,0.0
+2025-11-21,Newsletter_Weekly,Email,3683,65,53.05,0.0
+2025-11-21,Newsletter_Weekly,Email,1931,20,45.6,0.0
+2025-11-21,None,Organic Search,4962,191,47.32,0.0
+2025-11-21,Newsletter_Weekly,Email,3463,46,34.69,0.0
+2025-11-22,None,Social Media,2806,103,50.25,0.0
+2025-11-22,Newsletter_Weekly,Email,805,37,66.54,0.0
+2025-11-22,None,Social Media,3115,98,67.04,0.0
+2025-11-22,None,Social Media,1521,57,69.64,0.0
+2025-11-22,New_Year_Promo,Paid Ads,3718,77,35.37,4.08
+2025-11-22,None,Social Media,926,39,63.54,0.0
+2025-11-22,None,Social Media,905,37,65.3,0.0
+2025-11-23,None,Organic Search,3863,173,41.63,0.0
+2025-11-23,Newsletter_Weekly,Email,2614,50,36.42,0.0
+2025-11-23,None,Organic Search,2415,40,53.36,0.0
+2025-11-23,Newsletter_Weekly,Email,2755,72,34.54,0.0
+2025-11-23,Newsletter_Weekly,Email,792,28,65.8,0.0
+2025-11-23,Retargeting_Q1,Paid Ads,3892,126,54.15,2.56
+2025-11-23,Newsletter_Weekly,Email,2864,102,61.77,0.0
+2025-11-23,None,Referral,4925,115,31.66,0.0
+2025-11-23,None,Social Media,4440,62,59.76,0.0
+2025-11-23,None,Organic Search,2400,83,53.28,0.0
+2025-11-24,Newsletter_Weekly,Email,2699,88,61.73,0.0
+2025-11-24,None,Organic Search,2196,57,41.62,0.0
+2025-11-24,None,Referral,1572,70,69.55,0.0
+2025-11-24,Newsletter_Weekly,Email,2783,118,65.51,0.0
+2025-11-24,Winter_Sale,Paid Ads,1999,92,44.19,3.8
+2025-11-24,None,Organic Search,4626,112,34.24,0.0
+2025-11-24,None,Referral,1015,36,38.86,0.0
+2025-11-24,Newsletter_Weekly,Email,3819,95,52.96,0.0
+2025-11-24,New_Year_Promo,Paid Ads,813,36,39.57,3.84
+2025-11-25,Newsletter_Weekly,Email,4782,235,35.37,0.0
+2025-11-25,New_Year_Promo,Paid Ads,2723,134,63.85,3.46
+2025-11-25,None,Referral,4168,178,67.69,0.0
+2025-11-25,None,Social Media,2766,89,43.01,0.0
+2025-11-25,Retargeting_Q1,Paid Ads,4423,189,35.27,1.22
+2025-11-25,None,Organic Search,1357,55,51.36,0.0
+2025-11-25,Winter_Sale,Paid Ads,798,11,31.19,4.28
+2025-11-25,Retargeting_Q1,Paid Ads,4020,152,63.52,3.42
+2025-11-25,Retargeting_Q1,Paid Ads,1943,78,66.32,3.77
+2025-11-26,None,Referral,3252,142,67.38,0.0
+2025-11-26,None,Organic Search,3822,125,33.55,0.0
+2025-11-26,None,Organic Search,859,21,41.22,0.0
+2025-11-26,None,Organic Search,1077,51,43.48,0.0
+2025-11-26,None,Referral,541,7,46.8,0.0
+2025-11-26,None,Organic Search,3900,42,36.25,0.0
+2025-11-26,New_Year_Promo,Paid Ads,745,8,34.51,4.46
+2025-11-26,Newsletter_Weekly,Email,3055,103,63.94,0.0
+2025-11-26,New_Year_Promo,Paid Ads,397,6,57.01,1.91
+2025-11-27,None,Referral,4980,53,69.93,0.0
+2025-11-27,New_Year_Promo,Paid Ads,178,4,51.43,1.14
+2025-11-27,Retargeting_Q1,Paid Ads,1434,36,68.06,3.65
+2025-11-27,None,Organic Search,4319,157,62.35,0.0
+2025-11-27,Newsletter_Weekly,Email,1456,51,54.76,0.0
+2025-11-27,Retargeting_Q1,Paid Ads,2153,53,45.56,4.76
+2025-11-27,None,Social Media,290,9,50.42,0.0
+2025-11-27,Retargeting_Q1,Paid Ads,1990,93,39.74,1.64
+2025-11-27,None,Social Media,1265,34,59.42,0.0
+2025-11-28,None,Social Media,2182,32,63.26,0.0
+2025-11-28,New_Year_Promo,Paid Ads,3198,89,48.39,1.27
+2025-11-28,None,Referral,2759,48,51.3,0.0
+2025-11-28,None,Referral,763,10,39.7,0.0
+2025-11-28,Newsletter_Weekly,Email,4751,174,57.48,0.0
+2025-11-28,None,Social Media,3058,76,46.43,0.0
