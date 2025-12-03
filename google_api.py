@@ -1,88 +1,89 @@
 import streamlit as st
 import pandas as pd
+import os
 from googleapiclient.discovery import build
-from oauth2client.service_account import ServiceAccountCredentials
+from google.oauth2 import service_account
 
 def authenticate_google_analytics():
-    """
-    Authenticates with the Google Analytics API v4.
-    Checks Streamlit Secrets first (for Cloud), then falls back to local JSON (for Laptop).
-    """
-    SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
-    
+    # GA4 Scope
+    SCOPES = ["https://www.googleapis.com/auth/analytics.readonly"]
+
     try:
-        # PLAN A: Check for Streamlit Cloud Secrets (Production Environment)
-        # This prevents the "Key Revoked" issue on GitHub
-        if "gcp_service_account" in st.secrets:
-            key_dict = st.secrets["gcp_service_account"]
-            credentials = ServiceAccountCredentials.from_json_keyfile_dict(key_dict, SCOPES)
-            print("✅ Authenticated using Streamlit Secrets (Cloud)")
-            
-        # PLAN B: Check for Local File (Development Environment)
+        # PLAN A: Check for Local File FIRST (Best for your laptop)
+        if os.path.exists('client_secrets.json'):
+            creds = service_account.Credentials.from_service_account_file(
+                "client_secrets.json", scopes=SCOPES
+            )
+            print("✅ Authenticated locally using JSON file")
+
+        # PLAN B: Check for Streamlit Cloud Secrets (Production)
         else:
-            KEY_FILE_LOCATION = 'client_secrets.json'
-            credentials = ServiceAccountCredentials.from_json_keyfile_name(KEY_FILE_LOCATION, SCOPES)
-            print("✅ Authenticated using Local JSON File")
-        
-        # Build the service object
-        analytics = build('analyticsreporting', 'v4', credentials=credentials)
+            try:
+                if "gcp_service_account" in st.secrets:
+                    creds = service_account.Credentials.from_service_account_info(
+                        st.secrets["gcp_service_account"], scopes=SCOPES
+                    )
+                    print("✅ Authenticated using Streamlit Cloud secrets")
+                else:
+                    raise ValueError("No secrets found")
+            except Exception:
+                # If both fail, we can't connect
+                print("⚠️ No local key or cloud secret found.")
+                return None
+
+        # Build the GA4 Service (analyticsdata v1beta)
+        analytics = build("analyticsdata", "v1beta", credentials=creds)
         return analytics
-        
+
     except Exception as e:
-        # This print will show up in your terminal or Streamlit logs
-        print(f"❌ API Authentication Failed: {e}")
+        print("❌ Authentication ERROR:", e)
         return None
 
 def fetch_analytics_data(analytics):
-    """
-    Queries the API and returns a Pandas DataFrame.
-    """
+    # YOUR DIGITAL PLUS PROPERTY ID
+    PROPERTY_ID = "487589561"
+
     try:
-        # Define what we want (Metrics & Dimensions)
-        # NOTE: You must replace 'YOUR_VIEW_ID_HERE' with your actual View ID if you want this to work.
-        # If you don't have a View ID, this part will fail safely and your app will use Mock Data.
-        VIEW_ID = 'YOUR_VIEW_ID_HERE' 
-        
-        response = analytics.reports().batchGet(
+        response = analytics.properties().runReport(
+            property=f"properties/{PROPERTY_ID}",
             body={
-                'reportRequests': [
-                {
-                    'viewId': VIEW_ID,
-                    'dateRanges': [{'startDate': '30daysAgo', 'endDate': 'today'}],
-                    'metrics': [
-                        {'expression': 'ga:sessions'},
-                        {'expression': 'ga:transactions'}, # Conversions
-                        {'expression': 'ga:bounceRate'},
-                        {'expression': 'ga:percentNewSessions'} # Proxy for CTR
-                    ],
-                    'dimensions': [
-                        {'name': 'ga:date'},
-                        {'name': 'ga:source'},
-                        {'name': 'ga:campaign'}
-                    ]
-                }]
-            }
+                "dateRanges": [{"startDate": "30daysAgo", "endDate": "today"}],
+                "dimensions": [
+                    {"name": "date"},
+                    {"name": "sessionSource"},
+                    {"name": "sessionCampaignName"},
+                ],
+                "metrics": [
+                    {"name": "sessions"},
+                    {"name": "conversions"},
+                    {"name": "bounceRate"},
+                    {"name": "engagementRate"}, # Proxy for CTR
+                ],
+            },
         ).execute()
-        
-        # Parse the JSON response
-        data_list = []
-        for report in response.get('reports', []):
-            for row in report.get('data', {}).get('rows', []):
-                dims = row.get('dimensions', [])
-                metrics = row.get('metrics', [])[0].get('values', [])
-                
-                data_list.append({
-                    'Date': pd.to_datetime(dims[0]),
-                    'Source': dims[1],
-                    'Campaign': dims[2],
-                    'Sessions': int(metrics[0]),
-                    'Conversions': int(metrics[1]),
-                    'Bounce_Rate': float(metrics[2]),
-                    'CTR': float(metrics[3]) 
-                })
-                
-        return pd.DataFrame(data_list)
-        
+
+        rows = response.get("rows", [])
+        data = []
+
+        for row in rows:
+            dims = row["dimensionValues"]
+            mets = row["metricValues"]
+            
+            data.append({
+                "Date": pd.to_datetime(dims[0]["value"]),
+                "Source": dims[1]["value"],
+                "Campaign": dims[2]["value"],
+                "Sessions": int(mets[0]["value"]),
+                "Conversions": float(mets[1]["value"]),
+                "Bounce_Rate": float(mets[2]["value"]) * 100,
+                "CTR": float(mets[3]["value"]) * 100
+            })
+
+        if not data:
+            print("⚠️ API connected but returned no data.")
+
+        return pd.DataFrame(data)
+
     except Exception as e:
-        print(f"⚠️ Error Fetching Data: {e}")
-        return pd.DataFrame() # Return empty if fetch fails
+        print("❌ Fetch ERROR:", e)
+        return pd.DataFrame()
