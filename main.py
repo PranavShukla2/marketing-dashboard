@@ -61,24 +61,26 @@ st.markdown(f"""
         color: {sidebar_text} !important;
     }}
     
-    /* Header Gradient */
+    /* Header Gradient - NEON STYLE */
     .brand-text {{
         font-family: 'Inter', sans-serif;
-        font-size: 3.5rem;
-        font-weight: 800;
-        background: linear-gradient(90deg, #1E88E5, #9B51E0, #FF4081);
+        font-size: 4rem; /* Increased size */
+        font-weight: 900;
+        background: linear-gradient(90deg, #00C853, #1E88E5, #9B51E0); /* Neon Green -> Blue -> Purple */
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-bottom: 0;
-        line-height: 1.2;
+        line-height: 1.1;
+        text-shadow: 0px 0px 10px rgba(30, 136, 229, 0.3); /* Subtle glow */
     }}
     
     .subtitle-text {{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: {text_color};
-        opacity: 0.7;
+        opacity: 0.8;
         margin-bottom: 25px;
         font-weight: 500;
+        letter-spacing: 0.5px;
     }}
 
     /* Card Styling */

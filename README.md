@@ -1,83 +1,89 @@
-📊 Marketing Analytics Dashboard
+📊 DigitalPlus 24x7 Marketing Hub
 
-An integrated analytics platform designed to centralize marketing KPIs into a single, interactive interface. This dashboard allows marketing teams to monitor traffic trends, conversion rates, and campaign performance in real-time.
+An integrated Omni-Channel Marketing Analytics Command Center designed to centralize performance metrics from Google Analytics and Meta Ads (Facebook/Instagram) into a single, interactive interface.
 
-🚀 Key Features
+🌟 Key Features
 
-Hybrid Data Architecture: Automatically fetches live data from Google Analytics API v4 and caches it into a local SQLite database. If the API is unavailable, the system seamlessly falls back to the database to ensure zero downtime.
+Hybrid Data Architecture:
 
-Interactive Visualizations: Dynamic charts powered by Plotly to analyze traffic sources and campaign bounce rates.
+Live Mode: Connects to Google Analytics API (GA4) for real-time traffic analysis.
 
-Smart Filtering: Sidebar controls to filter data by specific Date Ranges, Traffic Sources, and Marketing Campaigns.
+Simulation Mode: Includes a robust data simulator for Facebook & Instagram Ads to demonstrate UI capabilities before API provisioning.
 
-Data Export: One-click functionality to download processed data as CSV reports.
+Zero-Data Handling: Smartly displays "0" or "No Data" when live feeds are empty, preventing misleading reporting.
+
+🤖 AI Forecasting:
+
+Built-in Linear Regression Engine that predicts traffic trends for the next 14, 30, or 90 days based on historical velocity.
+
+📊 Advanced Visualization:
+
+Traffic Share: Pie charts showing the split between Search (Google) and Social (Meta).
+
+ROI Matrix: Scatter plots analyzing Cost Efficiency (Ad Spend vs. Conversions).
+
+Engagement Tracking: Bar charts comparing user engagement rates across platforms.
+
+📑 Data Export Hub:
+
+One-click download of raw performance data (CSV) for external audits.
 
 🛠️ Tech Stack
 
 Frontend: Streamlit (Python)
 
-Backend Logic: Python, Google API Client
+Backend Logic: Python, Google API Client (GA4 Data API)
 
-Database: SQLite (Serverless local storage)
+Database: SQLite (Serverless local storage for simulation & caching)
 
-Visualization: Plotly Express
+Visualization: Plotly Express (Interactive charts)
 
 Deployment: Streamlit Community Cloud
 
 ⚙️ Installation & Setup
 
-If you want to run this project locally on your machine, follow these steps:
+If you want to run this project locally:
 
-1. Clone the Repository
+Clone the Repository
 
-git clone https://github.com/YOUR_USERNAME/marketing-dashboard.git
+git clone [https://github.com/YOUR_USERNAME/marketing-dashboard.git](https://github.com/YOUR_USERNAME/marketing-dashboard.git)
+cd marketing-dashboard
 
 
-2. Install Dependencies
+Install Dependencies
 
 pip install -r requirements.txt
 
 
-3. Configure API Credentials
+Generate Database
+Run this script once to populate the simulation database:
 
-To connect to the live Google Analytics API, you need a Service Account key.
+python generate_data.py
 
-Place your client_secrets.json file in the root directory.
 
-(Optional) If you don't have API keys, the app will automatically run in "Simulated Mode" using the SQLite database.
-
-4. Run the Dashboard
+Run the Dashboard
 
 streamlit run main.py
 
 
-🔐 Deployment (Streamlit Cloud)
+🔐 Configuration (Secrets)
 
-This project is deployed using Streamlit Community Cloud.
-To handle API security in the cloud without exposing keys on GitHub:
+To enable the Live Google Analytics feed, you must provide a Service Account JSON key:
 
-The client_secrets.json file is excluded from the repository (via .gitignore).
+Place client_secrets.json in the root folder (for local run).
 
-Production keys are stored securely in Streamlit Secrets configuration.
+Add contents to Streamlit Secrets (for cloud deployment).
 
 📂 Project Structure
 
 marketing-dashboard/
 ├── data/
 │   └── marketing.db        # SQLite database (Simulated/Cached data)
-├── main.py                 # The main dashboard application (Frontend)
-├── google_api.py           # Backend logic for API authentication & fetching
-├── generate_data.py        # Script to generate mock data for testing
+├── main.py                 # The main dashboard application
+├── google_api.py           # Backend logic for Google GA4 API
+├── generate_data.py        # Script to generate simulation data (FB/Insta)
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
 
-
-📈 Future Improvements
-
-Integration with Facebook Ads API.
-
-User authentication system for multiple team members.
-
-Advanced forecasting using Machine Learning.
 
 Developed by Pranav Shukla as part of the Marketing Analytics Internship Project.
