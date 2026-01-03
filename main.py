@@ -357,3 +357,5 @@ if not df_filtered.empty:
         st.dataframe(df_filtered, use_container_width=True)
 else:
     st.info("Waiting for live data... Toggle switches in sidebar to 'Simulation' if you want to see test data. ")
+
+    # Force update v2
