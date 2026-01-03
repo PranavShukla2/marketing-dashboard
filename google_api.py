@@ -4,6 +4,8 @@ import os
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 
+
+
 def authenticate_google_analytics():
     # GA4 Scope
     SCOPES = ["https://www.googleapis.com/auth/analytics.readonly"]
