@@ -356,4 +356,4 @@ if not df_filtered.empty:
     with tabs[3]:
         st.dataframe(df_filtered, use_container_width=True)
 else:
-    st.info("Waiting for live data... Toggle switches in sidebar to 'Simulation' if you want to see test data.")
+    st.info("Waiting for live data... Toggle switches in sidebar to 'Simulation' if you want to see test data. ")
