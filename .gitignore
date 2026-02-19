@@ -1,4 +1,18 @@
-client_secrets.json
+Environments
+
 venv/
-__pycache__/
-.DS_Store
+.env
+
+Google API Secrets (CRITICAL)
+
+client_secrets.json
+
+Databases
+
+data/*.db
+*.sqlite3
+
+Python Cache
+
+pycache/
+*.pyc
